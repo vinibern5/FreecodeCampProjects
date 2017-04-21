@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="https://use.fontawesome.com/a8affefe3d.js"></script>
+<title>Personal Portfolio</title>
+<style>
+ body {
+   background-color: #595959;
+   position: relative;
+ }
+ .centerdiv{
+	margin: auto;
+	padding:20px;
+	width: 50%;
+}
+
+
+.small-img{
+	width: 30%;
+	float: right;
+}
+
+#portfolio{
+	margin-top: -30px;
+}
+#contact{
+	margin-top: -30px;
+}
+.btn-circle{
+	border-radius: 50%;
+	width: 50px;
+	height: 50px;
+}
+
+</style>
+
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
+
+	<nav class="navbar navbar-default navbar-fixed-top">
+	  <div class="container-fluid">
+	    <div class="navbar-header">
+	        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+	          <span class="icon-bar"></span>
+	          <span class="icon-bar"></span>
+	          <span class="icon-bar"></span>                        
+	      </button>
+	      <a class="navbar-brand" href="#">PersonalPortfolio</a>
+	    </div>
+	    <div>
+	      <div class="collapse navbar-collapse" id="myNavbar">
+	        <ul class="nav navbar-nav">
+	          <li><a href="#about">About Me</a></li>
+	          <li><a href="#portfolio">Portfolio</a></li>
+	          <li><a href="#contact">Contact</a></li>
+	        </ul>
+	      </div>
+	    </div>
+	  </div>
+	</nav>    
+
+	<div class = "container-fluid centerdiv" id = "about">
+
+		<div class="jumbotron" style="background-color: #b3b3b3">
+		        <img class="small-img img-responsive img-circle" src="https://scontent.ffor8-2.fna.fbcdn.net/v/t1.0-9/10350634_487754728074924_3983215225717436300_n.jpg?oh=a63a6bf483ff6ddd6859f2e6b2296877&oe=59276CE4">
+		        <h1>About Me</h1>
+				<p>My name is Vinicius Bernardo.</p>
+				<p>I'm a brazilian student from IFCE.</p>
+				<p>Actually I'm studying web-development</p>
+				<p>at <a href="https://www.freecodecamp.com/" target="_blank">freecodecamp.</a></p>
+				<p>I'm learning a bunch of cool technologies, like HTML5, CSS, jQuery and JS.</p>
+				<p>And also improving at other things that I already know, like Python and C.</p>
+
+		</div>
+
+	</div>
+
+	<div class="container-fluid centerdiv" id="portfolio">
+		<div class="jumbotron" style="background-color: #d9d9d9;">
+			<h1>Portfolio</h1>
+			<p>My portfolio project, these images are placeholders. I will put my projects here on the future, 
+			a good way to track in my progress and have fun with html/css/boostrap.</p>
+			<div class="row">
+				<div class="col-xs-6"><img class="img-responsive" src="http://lorempixel.com/output/nature-q-c-640-480-1.jpg" alt="placeholder"></div>
+				<div class="col-xs-6"><img class="img-responsive" src="http://lorempixel.com/output/nature-q-c-640-480-1.jpg" alt="placeholder"></div>
+			</div>
+			<div class="row" style="margin-top: 20px;">
+				<div class="col-xs-6"><img class="img-responsive" src="http://lorempixel.com/output/nature-q-c-640-480-1.jpg" alt="placeholder"></div>
+				<div class="col-xs-6"><img class="img-responsive" src="http://lorempixel.com/output/nature-q-c-640-480-1.jpg" alt="placeholder"></div>
+			</div>
+			<div class="row" style="margin-top: 20px;">
+				<div class="col-xs-6"><img class="img-responsive" src="http://lorempixel.com/output/nature-q-c-640-480-1.jpg" alt="placeholder"></div>
+				<div class="col-xs-6"><img class="img-responsive" src="http://lorempixel.com/output/nature-q-c-640-480-1.jpg" alt="placeholder"></div>
+			</div>
+			<div class="row" style="margin-top: 20px;">
+				<div class="col-xs-6"><img class="img-responsive" src="http://lorempixel.com/output/nature-q-c-640-480-1.jpg" alt="placeholder"></div>
+				<div class="col-xs-6"><img class="img-responsive" src="http://lorempixel.com/output/nature-q-c-640-480-1.jpg" alt="placeholder"></div>
+			</div>
+
+		</div>
+	</div>
+	<div class="container-fluid centerdiv" id="contact">
+		<div class="jumbotron" style="background-color: #d9d9d9">
+			<h1>Contact</h1>
+			<p>You can contact me at <a href="https://www.freecodecamp.com/vinibern5" target="_blank">freecodecamp</a> or by the social medias bellow</p>
+	        <a class="btn btn-default btn-circle btn-lg" href="http://stackoverflow.com/users/7572280/vinicius-bernardo" target="_blank"><i style="margin-top:4px;"
+	        class="fa fa-stack-overflow" aria-hidden="true"></i>
+	        </a>
+	        <a class="btn btn-default btn-circle btn-lg" href="https://github.com/vinibern5" target="_blank"><i style="margin-top:5px;"
+	        class="fa fa-github" aria-hidden="true"></i></i></a>
+
+
+
+		</div>
+	</div>
+
+</body>
+
